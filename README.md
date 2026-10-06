@@ -9,13 +9,12 @@ Personal Claude Code mods (function-hook plugins).
 
 ## Install
 
-From a local checkout:
+```
+/plugin install context-bar --marketplace Joxtacy/claude-code-mods
+/plugin install turn-usage --marketplace Joxtacy/claude-code-mods
+```
 
-```
-/plugin marketplace add ~/PrivateProjects/claude-code-mods
-/plugin install context-bar@claude-code-mods
-/plugin install turn-usage@claude-code-mods
-```
+Answer `y` to add the marketplace, then pick a scope (user scope loads it in every session).
 
 ## Develop
 
