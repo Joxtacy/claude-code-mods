@@ -1,1 +1,8 @@
-{ "name": "turn-usage", "version": "0.1.0", "description": "Per-turn token, cache-hit and cost line under the prompt" }
+{
+  "name": "turn-usage",
+  "version": "0.1.0",
+  "description": "Per-turn token, cache-hit and cost line under the prompt",
+  "author": {
+    "name": "Joxtacy"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "claude-code-mods",
+  "owner": {
+    "name": "Joxtacy"
+  },
+  "metadata": {
+    "description": "Personal Claude Code mods: context window bar, per-turn usage line"
+  },
+  "plugins": [
+    {
+      "name": "context-bar",
+      "source": "./plugins/context-bar",
+      "description": "Context window as a stacked bar above the prompt, one colour per /context category; toggle with /context-bar"
+    },
+    {
+      "name": "turn-usage",
+      "source": "./plugins/turn-usage",
+      "description": "Per-turn token, cache-hit and cost line under the prompt"
+    }
+  ]
+}
